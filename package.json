@@ -1,0 +1,12 @@
+{
+  "name": "bot-wa-pairing",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot pairing mode untuk Termux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0"
+  }
+}
