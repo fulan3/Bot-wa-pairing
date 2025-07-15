@@ -1,12 +1,13 @@
 {
-  "name": "bot-wa-pairing",
+  "name": "bot-wa-baileys",
   "version": "1.0.0",
-  "description": "WhatsApp Bot pairing mode untuk Termux",
+  "description": "Bot WhatsApp dengan Baileys untuk Render.com",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0"
+    "@whiskeysockets/baileys": "^6.5.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
